@@ -1,0 +1,48 @@
+.modal-div-flex{
+    display: flex !important; 
+}
+.modal-background{
+    background-color: var(--grey-opacity-1);
+    width: 100vw;
+    height: 100vh;    
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal{
+    background-color: var(--white-fixed);
+    border-radius: 8px;
+    width: 750px;
+    height: 500px;
+}
+/*margin modal inteiro*/
+.modal-content{
+    margin: 3em;
+}
+/*cabecalho modal*/
+.modal-header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.modal-profile{
+    display: flex;
+}
+.modal-close{
+    background-color: var(--grey5);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    color: var(--grey3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0;
+    cursor: pointer;
+}
+

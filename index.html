@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/globalStyles.css">
+    <script src="./assets/script/main.js" defer></script>
+    <script src="./assets/script/object.js" defer></script>
+    <script src="./assets/script/modal.js" defer></script>
+    <title>Rede social</title>
+</head>
+<body>
+    <header class="header">
+        <div class="width flex header-div">
+            <h1 class="logo">TechPosters</h1>
+            <span class="header-leave">Sair</span>
+        </div>
+    </header>
+    <div class="profile-desktop">
+        <section class="section-post">
+            <div class="width">
+                <div class="profile margin">
+                    <img src="./assets/img/profile-pic/pic0.jpeg" alt="main profile pic" class="profile-pic">
+                    <div class="flex-column">
+                        <h2 class="profile-name title1">Karoline Rezende</h2>
+                        <p class="profile-description">Front end Student</p>
+                    </div>
+                </div>
+                <div class="profile-input margin">
+                    <input type="text" placeholder="Digitar título do post" class="input-default margin">
+                    <input type="textarea" placeholder="Digitar descrição do post" class="textarea-default margin">
+                </div>
+                <div class="button-div margin">
+                    <button class="button-disable">Postar</button>
+                </div>
+            </div>
+        </section>
+        <div class="width">
+            <p class="sugestion-text title2 margin">Sugestões para você seguir</p>
+            <ul class="sugestion">
+                <li class="margin sugestion-item">
+                    <div class="profile profile-sugestion">
+                        <img src="./assets/img/profile-pic/pic1.png" alt="main profile pic" class="profile-pic">
+                        <div class="flex-column ">
+                            <h2 class="profile-name title2">Samuel Persuhn</h2>
+                            <p class="profile-description">Front end Engineer</p>
+                        </div>
+                    </div>
+                    <div class="button-div">
+                        <button class="button-outline">Seguir</button>
+                    </div>
+                </li>
+                <li class="margin sugestion-item">
+                    <div class="profile profile-sugestion">
+                        <img src="./assets/img/profile-pic/pic2.png" alt="main profile pic" class="profile-pic">
+                        <div class="flex-column ">
+                            <h2 class="profile-name title2">Manoel Gomes</h2>
+                            <p class="profile-description">Back end Starter</p>
+                        </div>
+                    </div>
+                    <div class="button-div">
+                        <button class="button-outline">Seguir</button>
+                    </div>
+                </li>
+                <li class="margin sugestion-item">
+                    <div class="profile profile-sugestion">
+                        <img src="./assets/img/profile-pic/pic5.png" alt="main profile pic" class="profile-pic">
+                        <div class="flex-column ">
+                            <h2 class="profile-name title2">Renan Felipe</h2>
+                            <p class="profile-description">Front end Student</p>
+                        </div>
+                    </div>
+                    <div class="button-div">
+                        <button class="button-outline">Seguir</button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <section class="width sticky">
+        <p class="title2 margin">Posts</p>
+        <ul class="post margin">
+            <li class="post-item margin">
+                <div class="profile profile-sugestion">
+                    <img src="./assets/img/profile-pic/pic1.png" alt="main profile pic" class="profile-pic">
+                    <div class="flex-column ">
+                        <h2 class="profile-name title2">Samuel Persuhn</h2>
+                        <p class="profile-description">Front end Engineer</p>
+                    </div>
+                </div>
+                <div class="post-body">
+                    <h2 class="title1 text">Como criar um interface simples e agradável utilizando boas práticas de design</h2>
+                    <p class="text1 text">Hoje vamos conversar sobre como criar uma interface agradável mesmo sem ter um design pronto feito por um profissional de UI design.</p>
+                    <div class="post-input margin">
+                        <button class="button-grey1 button-post 1" data-control-modal="modal">Abrir post</button>
+                        <div alt="botao like"  class="button-off"></div>
+                        <span class="heart-quantity">13</span>
+                    </div>
+                </div>
+            </li>
+            <li class="post-item margin">
+                <div class="profile profile-sugestion">
+                    <img src="./assets/img/profile-pic/pic2.png" alt="main profile pic" class="profile-pic">
+                    <div class="flex-column ">
+                        <h2 class="profile-name title2">Manoel Gomes</h2>
+                        <p class="profile-description">Front end Starter</p>
+                    </div>
+                </div>
+                <div class="post-body">
+                    <h2 class="title1 text">Empresa de Tecnologia da Informação abre vagas para programa de estágio</h2>
+                    <p class="text1 text">A Generic Digital, empresa natalence especializada em Tecnologia da Informação, irá iniciar o seu sexto programa de estágio, com o prazo de inscrições entre os dias 10 e 28 de agosto. </p>
+                    <div class="post-input margin">
+                        <button class="button-grey1 button-post 2" data-control-modal="modal">Abrir post</button>
+                        <div alt="botao like"  class="button-off"></div>
+                        <span class="heart-quantity">13</span>
+                    </div>
+                </div>
+            </li>
+            <li class="post-item margin">
+                <div class="profile profile-sugestion">
+                    <img src="./assets/img/profile-pic/pic3.png" alt="main profile pic" class="profile-pic">
+                    <div class="flex-column ">
+                        <h2 class="profile-name title2">Thomas Shelby</h2>
+                        <p class="profile-description">Ux designer</p>
+                    </div>
+                </div>
+                <div class="post-body">
+                    <h2 class="title1 text">Como melhorar sua lógica de programação? Desenvolvemos 5 passos para te ajudar</h2>
+                    <p class="text1 text">Para quem está começando na área de T.I, em pleno século 21 este conceito pode parecer um grande desafio, pois requer muitas habilidades em diversas áreas de estudo, principalmente...</p>
+                    <div class="post-input margin">
+                        <button class="button-grey1 button-post 3" data-control-modal="modal">Abrir post</button>
+                        <div alt="botao like"  class="button-off"></div>
+                        <span class="heart-quantity">13</span>
+                    </div>
+                </div>
+            </li>
+            <li class="post-item margin">
+                <div class="profile profile-sugestion">
+                    <img src="./assets/img/profile-pic/pic4.png" alt="main profile pic" class="profile-pic">
+                    <div class="flex-column ">
+                        <h2 class="profile-name title2">Helen Manuela</h2>
+                        <p class="profile-description">Back end Sênior</p>
+                    </div>
+                </div>
+                <div class="post-body">
+                    <h2 class="title1 text">NextJS como essa ferramenta revolucionou a maneira de desenvolver sites</h2>
+                    <p class="text1 text">Provavelmente, você já ouviu falar do Next.js, considerado o framework mais popular do mercado. Com a expansão do mercado de tecnologia e sua influência em serviços de diver...</p>
+                    <div class="post-input margin">
+                        <button class="button-grey1 button-post 4" data-control-modal="modal">Abrir post</button>
+                        <div alt="botao like"  class="button-off"></div>
+                        <span class="heart-quantity">13</span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <div class="modal-background">
+        <div class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="modal-profile">
+                        <img alt="" class="profile-pic">
+                        <div class="modal-header-text">
+                            <h1 class="profile-name title2 modal-name"></h1>
+                            <p class="profile-description modal-job"></p>
+                        </div>
+                        
+                    </div>
+                    <div class="modal-close" data-control-modal="modal">X</div>
+                </div>
+                <div class="post-body">
+                    <div class="title1 text modal-title"></div>
+                    <div class="text1 text modal-text"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

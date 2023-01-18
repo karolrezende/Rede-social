@@ -1,0 +1,40 @@
+.logo{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 24px;
+    color: var(--white-fixed);
+}
+.title1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+}
+.title2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+.text{
+    text-align: justify;
+}
+.text1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+.text2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+.text3{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}

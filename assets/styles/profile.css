@@ -1,0 +1,50 @@
+.profile{
+    display: flex;   
+}
+.profile-pic{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 1em 1em 0;
+}
+.button-off{
+    background-image: url(.\assets\img\profile-pic\heart-off.png);
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.button-on{
+    background-image: url(.\assets\img\profile-pic\heart-on.png);
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+/*sugestions*/
+.profile-sugestion{
+    width: 300px;
+}
+.sugestion{
+    list-style: none;
+    display: flex;
+    overflow-x:scroll;
+}
+.sugestion-item{
+    display: flex;
+    flex-direction: column;
+}
+/*posts*/
+.post{
+    list-style: none;
+}
+.post-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+}

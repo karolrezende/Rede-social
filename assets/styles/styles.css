@@ -1,0 +1,19 @@
+.width{
+    margin: 0 2rem;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.margin{
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.sticky{
+    position:sticky;
+}

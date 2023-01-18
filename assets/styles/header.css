@@ -1,0 +1,12 @@
+.header{
+    background-color: var(--grey0);
+    height: 8vh;
+    display: flex;
+    align-items: center;
+}
+.header-div{
+    width: 100%;
+}
+.header-leave{
+    color: var(--white-fixed);
+}

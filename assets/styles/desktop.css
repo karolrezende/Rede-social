@@ -1,0 +1,28 @@
+@media screen and (min-width:1000px) {
+    .width{
+        margin: 0 5em;
+    }
+    .profile-desktop{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .sugestion{
+        flex-direction: column;
+        overflow-x: hidden;
+        width: 300px;
+    }
+    .profile-sugestion{
+        width: 200px;
+        display: flex;
+    }
+    .sugestion-item{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .post{
+        width: 800px;
+    }
+}

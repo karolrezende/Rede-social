@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url(./text.css);
+@import url(./button.css);
+@import url(./modal.css);
+@import url(./styles.css);
+@import url(./profile.css);
+@import url(./header.css);
+@import url(./desktop.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-size: 100%;
+}
+:root{
+    --grey0:#0A0C0D;
+    --grey1:#212529;
+    --grey2:#495057;
+    --grey3:#868E96;
+    --grey4:#DEE2E6;
+    --grey5:#F8F9FA;
+    --grey6: #EDF2FF;
+    --grey-opacity-1:rgba(33, 37, 41, 0.5);
+    --white-fixed:#FFFFFF;
+    --brand1: #4263EB;
+    --brand2: #364FC7;
+    --like: #D7443E;
+}
+
+
